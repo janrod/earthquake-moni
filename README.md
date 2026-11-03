@@ -1,8 +1,8 @@
 # Kyoshin Monitor for M5Stack Tab5
 
-An always-on earthquake monitor for the [M5Stack Tab5](https://docs.m5stack.com/en/core/Tab5). It shows Japan's
-real-time seismic map, NIED's [強震モニタ](http://www.kmoni.bosai.go.jp/) (Kyoshin Monitor), full screen in
-portrait, and sounds the alarm for Earthquake Early Warnings.
+An always-on earthquake monitor for the [M5Stack Tab5](https://shop.m5stack.com/products/m5stack-tab5-iot-development-kit-esp32-p4),
+an ESP32-P4 development kit with a 720x1280 touch screen. It shows Japan's real-time seismic map, NIED's
+[強震モニタ](http://www.kmoni.bosai.go.jp/) (Kyoshin Monitor), full screen in portrait, and sounds the alarm for Earthquake Early Warnings.
 
 The Tab5 has no browser, so the firmware rebuilds the page from the same images and data the site loads once a second.
 
@@ -17,6 +17,17 @@ The Tab5 has no browser, so the firmware rebuilds the page from the same images 
 - **Night dimming:** dims from sunset to 22:00 and brightens again towards sunrise, worked out for your location.
 - **Night mode:** turns the backlight off on a schedule or all the time. A touch or an alert brings it back.
 - **Wi-Fi:** pick a network and type its password on screen. Saved networks reconnect by themselves.
+
+<table>
+  <tr>
+    <td><img src="docs/list.png" width="240" alt="Earthquake list, showing intensity, place, time, magnitude and depth"></td>
+    <td><img src="docs/detail.png" width="240" alt="Earthquake detail page, with a map coloured by intensity"></td>
+    <td><img src="docs/settings.png" width="240" alt="Settings panel"></td>
+  </tr>
+</table>
+
+The live map isn't pictured because NIED's terms don't allow republishing its images. [See it on NIED's site.](http://www.kmoni.bosai.go.jp/)
+The Wi-Fi name and location are blanked out in the settings picture.
 
 ## How to use it
 
