@@ -1,0 +1,6 @@
+backup/
+build/
+kmoni_tab5/secrets.h
+.DS_Store
+tools/__pycache__/
+tools/tab5_mac
